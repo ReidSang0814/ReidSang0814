@@ -1,5 +1,5 @@
 {
-  "coloredImage": true,
+  "coloredImage": false,
   "backgroundColor": "#ffffff, #0d1117",
   "separatorColor": "#d0d7de, #30363d",
   "sections": [
@@ -85,5 +85,6 @@
         }
       }
     ]
-  }
+  },
+  "imageColor": "#0969da, #79c0ff"
 }
