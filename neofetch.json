@@ -1,0 +1,89 @@
+{
+  "coloredImage": true,
+  "backgroundColor": "#ffffff, #0d1117",
+  "separatorColor": "#d0d7de, #30363d",
+  "sections": [
+    {
+      "title": "{{username}}@github",
+      "titleColor": {
+        "text": "#0969da, #79c0ff",
+        "line": "#d0d7de, #30363d"
+      },
+      "fields": [
+        {
+          "key": "Name",
+          "value": "{{name}}",
+          "keyColor": "#0969da, #79c0ff"
+        },
+        {
+          "key": "Username",
+          "value": "{{username}}",
+          "keyColor": "#0969da, #79c0ff"
+        },
+        {
+          "key": "Joined",
+          "value": "{{created}}",
+          "keyColor": "#0969da, #79c0ff"
+        },
+        {
+          "key": "Uptime",
+          "value": "{{uptime}}",
+          "keyColor": "#0969da, #79c0ff"
+        }
+      ]
+    },
+    {
+      "title": "- Links",
+      "titleColor": {
+        "text": "#0969da, #79c0ff",
+        "line": "#d0d7de, #30363d"
+      },
+      "fields": [
+        {
+          "key": "GitHub",
+          "value": "github.com/{{username}}",
+          "keyColor": "#0969da, #79c0ff"
+        }
+      ]
+    }
+  ],
+  "stats": {
+    "title": "- GitHub Stats",
+    "titleColor": {
+      "text": "#0969da, #79c0ff",
+      "line": "#d0d7de, #30363d"
+    },
+    "rows": [
+      {
+        "left": {
+          "key": "Repos",
+          "value": "{{repos}}"
+        },
+        "right": {
+          "key": "Stars",
+          "value": "{{stars}}"
+        }
+      },
+      {
+        "left": {
+          "key": "Followers",
+          "value": "{{followers}}"
+        },
+        "right": {
+          "key": "Following",
+          "value": "{{following}}"
+        }
+      },
+      {
+        "left": {
+          "key": "Issues",
+          "value": "{{issues}}"
+        },
+        "right": {
+          "key": "PRs",
+          "value": "{{prs}}"
+        }
+      }
+    ]
+  }
+}
